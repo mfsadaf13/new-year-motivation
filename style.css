@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0px;
     font-family: 'Comfortaa', cursive;
 }
 
 .buttons {
     width: 160px;
     height: 64px;
+    color: #005FAC;
+    font-size: 20px;
+    border-radius: 8px;
 }
+
+/* Header */
 
 .header {
     background: url("images/banner/banner3.png");
@@ -48,9 +54,9 @@
     position: absolute;
     left: 1210px;
     top: 578px;
-    color: #005FAC;
-    font-size: 20px;
 }
+
+/* My Failures Section */
 
 .failures {
     width: 1072px;
@@ -104,4 +110,60 @@ ul {
 ul li:before {
     content: '✓';
     color: rgba(29, 235, 29, 0.86);
+}
+
+/* My Plans Section */
+
+.plans-title {
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1792px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 230px;
+    top: 1889px;
+}
+
+.plan-description {
+    padding: 50px 86px;
+    text-align: center;
+}
+
+.plan-icons {
+    width: 93px;
+    height: 93px;
+}
+
+/* Mindset Section */
+
+.mindset {
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    margin-bottom: 130px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    border-radius: 8px;
+}
+
+.mindset-title {
+    font-size: 40px;
+    padding-top: 59px;
+    padding-left: 64px;
+    color: #FFFFFF;
+}
+
+.call-now {
+    margin-top: 24px;
+    margin-left: 64px;
 }
