@@ -152,7 +152,7 @@ ul li:before {
     left: 230px;
     top: 2221.96px;
     margin-bottom: 130px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(images/watch.png);
     border-radius: 8px;
 }
 
